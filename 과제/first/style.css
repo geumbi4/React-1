@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'KCCChassam';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCCChassam.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: 'KCCChassam';
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  min-width: fit-content;
+}
+
+.mainbox {
+  width: 610px;
+  padding: 30px;
+  margin: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 1px 20px 0 reba(0, 0, 0, 0.2);
+}
+
+section {
+  margin-bottom: 24px;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 36px;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 8px;
+  text-align: right;
+}
+
+h2 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+  color: #2aad3c;
+  font-weight: 400;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #3d3c3c;
+  padding-bottom: 5px;
+}
+
+.myImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+  float: left;
+}
+
+.float-wrap {
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+
+.text {
+  line-height: 16px;
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 6px;
+}
+
+.first-line {
+  color: #6a75ca;
+}
+
+.second-line-img {
+  width: 320px;
+  height: 290px;
+}
+
+.github-img {
+  width: 65px;
+}
