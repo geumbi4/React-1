@@ -1,0 +1,41 @@
+.a{
+    border: 1px solid red;
+}
+.b{
+    display: inline-block;
+    padding: 4px 4px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #fff;
+    background: #515151;
+}
+.main-style{
+    width: 30%;
+    height: 20em;
+}
+.container {
+    display: flex;
+}
+.sub-style{
+    width: 30%;
+    height: 20em;
+}
+.main-text{
+    font-size: 30px;
+    font-weight: bold;
+}
+.header-style{
+    font-size: 18px ;
+    font-weight: bold;
+}
+a:link{
+    color: black;
+}
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+.dark-mode-area{
+    font-size: 1.5em;
+}
